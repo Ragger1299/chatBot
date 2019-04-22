@@ -1,0 +1,13 @@
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+class Threads extends Thread {
+	volatile static boolean bool;
+	static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh:mm ");
+	static Date receiveDate;
+	static long receiveDateLong;
+	static String date;
+	static String pathMessage = "HistoryThread.txt";
+	static String pathDate = "DateLastMessageThread.txt";
+}
